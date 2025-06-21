@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Контакти</title>
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li><a href="../index.html">Головна</a></li>
+        <li><a href="articles.html">Статті</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="contact-us.html">Контакти</a></li>
+      </ul>
+    </div>
+    <hr />
+
+    <div class="container">
+      <h2>Напишіть нам</h2>
+      <form>
+        <fieldset>
+          <legend>Дані користувача:</legend>
+
+          <div class="mt">
+            <label for="name" class="text-input-label">Ім'я користувача</label>
+            <input
+              class="text-input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Напишіть ім'я"
+            />
+          </div>
+
+          <div class="mt">
+            <label for="phone" class="text-input-label">Телефон</label>
+            <input
+              class="text-input"
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+380..."
+            />
+          </div>
+
+          <div class="mt">
+            <label for="email" class="text-input-label">Електронна пошта</label>
+            <input
+              class="text-input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email@email.com"
+            />
+          </div>
+        </fieldset>
+
+        <fieldset class="mt">
+          <legend>Повідомлення:</legend>
+
+          <div class="mt">
+            <label for="theme" class="text-input-label">Тема повідомлення</label>
+            <input
+              class="text-input"
+              type="text"
+              id="theme"
+              name="theme"
+              placeholder="Напишіть тему..."
+            />
+          </div>
+
+          <div class="mt">
+            <input
+              type="radio"
+              name="message-type"
+              value="question"
+              id="question"
+            />
+            <label for="question"> Запитання</label>
+
+            <input
+              type="radio"
+              name="message-type"
+              value="suggestion"
+              id="suggestion"
+            />
+            <label for="suggestion">Пропозиція</label>
+
+            <input
+              type="radio"
+              name="message-type"
+              value="complaint"
+              id="complaint"
+            />
+            <label for="complaint">Скарга</label>
+          </div>
+
+          <div class="mt">
+            <label for="message">Текст повідомлення:</label>
+            <div class="mt">
+              <textarea
+                id="message"
+                name="message"
+                rows="8"
+                placeholder="Напишіть повідомлення..."
+              ></textarea>
+            </div>
+          </div>
+        </fieldset>
+
+        <button class="mt" type="submit">Відправити</button>
+      </form>
+    </div>
+  </body>
+</html>
