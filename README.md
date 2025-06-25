@@ -1,4 +1,4 @@
-# **Все про гори**
+# **[Домашні роботи](https://izhuhan.github.io/index.html)**
 
 ## **Використані технології**
 
@@ -8,12 +8,10 @@
 ## **Використані шрифти**
 
 1. Arial, Helvetica
+
 - Open sans
 
 ## **Список сторінок**
 
-1. [Головна](https://izhuhan.github.io/index.html)
-2. [Галерея](https://izhuhan.github.io/pages/gallery.html)
-3. [Статті](https://izhuhan.github.io/pages/articles.html)
-4. [Про нас](https://izhuhan.github.io/pages/about.html)
-5. [Контакти](https://izhuhan.github.io/pages/contact-us.html)
+1. [Домашні роботи №1-5](https://izhuhan.github.io/home-works-1-5/index.html)
+2. [Домашня робота №6](https://izhuhan.github.io/home-work-6/index.html)
