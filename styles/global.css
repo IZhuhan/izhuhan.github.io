@@ -29,6 +29,11 @@ ol {
   padding-left: 15px;
 }
 
+.btn-row {
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration: none;
   color: #999;
@@ -38,6 +43,6 @@ a:hover {
   color: rgb(17, 17, 17);
 }
 
-.homeworks-link {
+.back-btn {
   display: inline-flex;
 }
