@@ -29,9 +29,11 @@ ol {
   padding-left: 15px;
 }
 
-.btn-row {
+.breadcrumbs {
+  list-style: none;
   display: flex;
-  flex-direction: column;
+  gap: 4px;
+  padding-left: 15px;
 }
 
 a {
@@ -41,8 +43,4 @@ a {
 
 a:hover {
   color: rgb(17, 17, 17);
-}
-
-.back-btn {
-  display: inline-flex;
 }
