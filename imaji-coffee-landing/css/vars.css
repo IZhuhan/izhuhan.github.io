@@ -1,0 +1,62 @@
+:root {
+    --text-xs: 12px;
+    --text-sm: 14px;
+    --text-base: 16px;
+    --text-lg: 18px;
+    --text-xl: 20px;
+    --text-2xl: 24px;
+    --text-3xl: 30px;
+    --text-4xl: 36px;
+    --text-5xl: 48px;
+    --text-6xl: 60px;
+    --text-7xl: 72px;
+    --text-8xl: 96px;
+    --text-9xl: 128px;
+
+    --line-height-auto: auto;
+    --line-height-xs: 16px;
+    --line-height-sm: 20px;
+    --line-height-base: 24px;
+    --line-height-lg: 28px;
+    --line-height-2xl: 32px;
+    --line-height-3xl: 36px;
+    --line-height-4xl: 40px;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    --color-black: #121212;
+    --color-dark-grey-90: #4D4D4D;
+    --color-dark-grey-70: #7F7F7F;
+    --color-light-grey-40: #E3E3E3;
+    --color-light-grey-20: #F6F6F6;
+    --color-white: #f6f6f6;
+
+    --color-primary: #A27B5C;
+    --color-primary-surface: #ECE5DE;
+    --color-primary-border: #E0D3C9;
+    --color-primary-hover: #87674D;
+    --color-primary-pressed: #513E2E;
+    --color-primary-focus: #A27B5C;
+
+    --color-secondary: #3F4E4F;
+    --color-secondary-surface: #D9DCDC;
+    --color-secondary-border: #BFC4C4;
+    --color-secondary-hover: #354142;
+    --color-secondary-pressed: #202728;
+    --color-secondary-focus: #3F4E4F;
+
+    --color-yellow: #FFA90B;
+    --color-red: #F14C35;
+
+    --border-rounded-none: 0px;
+    --border-rounded-sm: 2px;
+    --border-rounded: 4px;
+    --border-rounded-md: 6px;
+    --border-rounded-lg: 8px;
+    --border-rounded-xl: 12px;
+    --border-rounded-2xl: 16px;
+    --border-rounded-3xl: 24px;
+    --border-rounded-full: 50%;
+}
