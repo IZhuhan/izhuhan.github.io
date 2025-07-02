@@ -31,37 +31,37 @@ a:focus {
     padding-right: 16px;
 }
 
-.btn {
+.btn--default-size {
     padding: 12px 16px;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--text-base);
+    line-height: var(--line-height-base);
+    border-width: 1px;
+    border-style: solid;
 }
 
 .btn--primary {
     background-color: var(--color-primary);
     color: var(--color-white);
-    border: none;
+    border-color: var(--color-primary);
 }
 
 .btn--primary:hover {
     background-color: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
+    color: var(--color-light-grey-40);
 }
 
 .btn--transparent {
     background-color: var(--color-white);
-    border: 1px solid var(--color-primary);
+    border-color: var(--color-primary);
     color: var(--color-primary);
 }
 
 .btn--transparent:hover {
     background-color: var(--color-light-grey-40);
-    border: 1px solid var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
     color: var(--color-primary-hover);
-}
-
-.btn--default {
-    padding: 12px 16px;
-    font-weight: var(--font-weight-medium);
-    font-size: var(--text-base);
-    line-height: var(--line-height-base);
 }
 /** DEFAULT CLASSES END **/
 
