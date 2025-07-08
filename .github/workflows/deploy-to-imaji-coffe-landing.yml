@@ -16,7 +16,7 @@ jobs:
       - name: Deploy to imaji-coffeeshop branch of imaji-coffee-landing
         uses: peaceiris/actions-gh-pages@v4
         with:
-          external_repository: izhuhan/imaji-coffee-landing
+          external_repository: IZhuhan/imaji-coffee-landing
           publish_branch: imaji-coffeeshop
           publish_dir: .
           commit_message: "Auto-deploy from izhuhan.github.io/imaji-coffe-landing"
