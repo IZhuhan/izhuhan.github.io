@@ -1,0 +1,24 @@
+name: Deploy static site to imaji-coffee-landing
+
+on:
+  push:
+    branches:
+      - imaji-coffe-landing
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Deploy to imaji-coffeeshop branch of imaji-coffee-landing
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          external_repository: izhuhan/imaji-coffee-landing
+          publish_branch: imaji-coffeeshop
+          publish_dir: .
+          commit_message: "Auto-deploy from izhuhan.github.io/imaji-coffe-landing"
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
