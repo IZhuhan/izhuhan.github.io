@@ -20,5 +20,4 @@ jobs:
           publish_branch: imaji-coffeeshop
           publish_dir: .
           commit_message: "Auto-deploy from izhuhan.github.io/imaji-coffe-landing"
-        env:
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
