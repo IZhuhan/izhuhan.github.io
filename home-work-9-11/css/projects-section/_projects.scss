@@ -1,0 +1,29 @@
+@import "../variables";
+@import "../mixins";
+
+.projects {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    @include media("md") {
+      justify-content: center;
+    }
+  }
+
+  &__item {
+    display: flex;
+    gap: 20px;
+
+    @include media("md") {
+      justify-content: center;
+      flex: 0 1 calc((100% - 2 * 16px) / 3);
+    }
+  }
+
+  &__amount {
+    @include text-settings(21px, 500, $color-white);
+  }
+}

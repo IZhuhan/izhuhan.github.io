@@ -1,0 +1,22 @@
+@import "../variables";
+@import "../mixins";
+
+.footer {
+  &__section {
+    @include vertical-paddings(50px, 50px);
+
+    @include media("sm") {
+      @include vertical-paddings(30px, 30px);
+
+    }
+  }
+
+  &__author {
+    @include text-settings(21px, 500, $color-white);
+    margin-bottom: 20px;
+  }
+
+  &__copyright {
+    font-size: 13px;
+  }
+}
