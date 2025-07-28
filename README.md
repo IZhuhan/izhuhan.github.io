@@ -19,3 +19,4 @@
 4. [Домашня робота №8](https://izhuhan.github.io/home-work-8/home-work-8.html)
 5. [Домашня робота №9-11](https://izhuhan.github.io/home-work-9-11/home-work-9-11.html)
 6. [Домашня робота №13](https://izhuhan.github.io/home-work-13/home-work-13.html)
+7. [Домашня робота №14](https://izhuhan.github.io/home-work-14/home-work-14.html)
