@@ -82,8 +82,10 @@ function createTestList() {
 }
 createTestList();
 
-function setupEventDelegation(selector) {
+function setupEventDelegation(selector, ...args) {
   const list = document.querySelector(selector);
+  console.log(args);
+
 
   list.addEventListener('click', (event) => {
     if (event.target.tagName === 'LI') {
@@ -95,4 +97,4 @@ function setupEventDelegation(selector) {
 setupEventDelegation('#testList')
 
 // Експорт функції для використання та тестування
-export { handleButtonClick, trackMousePosition, setupEventDelegation }
+// export { handleButtonClick, trackMousePosition, setupEventDelegation }

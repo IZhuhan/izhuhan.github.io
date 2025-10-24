@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Домашня робота №27</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+<div class="slider-container">
+  <div class="slider">
+    <div class="slides" id="slides">
+      <div class="slide">
+        <div class="slide-content">
+          <h2>Слайд 1</h2>
+          <p>Перший слайд - красивий і простий!</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-content">
+          <h2>Слайд 2</h2>
+          <p>Другий слайд - з плавними переходами!</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-content">
+          <h2>Слайд 3</h2>
+          <p>Третій слайд - з автоматичним прокручуванням!</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-content">
+          <h2>Слайд 4</h2>
+          <p>Четвертий слайд - підтримує клавіатуру!</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-content">
+          <h2>Слайд 5</h2>
+          <p>П'ятий слайд - працює на всіх пристроях!</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="nav-button prev" onclick="prevSlide()">‹</button>
+    <button class="nav-button next" onclick="nextSlide()">›</button>
+  </div>
+
+  <div class="controls">
+    <div class="indicators" id="indicators"></div>
+    <div class="progress-bar">
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <button class="play-pause-btn" onclick="togglePlay()">
+      <span id="playText">Пауза</span>
+    </button>
+  </div>
+
+  <div class="hint">Використовуйте ← → або пробіл для керування</div>
+</div>
+
+<script src="scripts/slider.js"></script>
+</body>
+</html>
