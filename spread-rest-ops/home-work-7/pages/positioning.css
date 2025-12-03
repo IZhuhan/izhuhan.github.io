@@ -1,0 +1,37 @@
+.list {
+    display: flex;
+    gap: 8px;
+}
+
+.list-item__wrap {
+    overflow: auto;
+    background-color: coral;
+}
+
+.list-item {
+    height: 300px;
+    padding: 8px;
+    flex-grow: 3;
+}
+
+.list-item__title {
+    padding: 8px;
+    background-color: mediumaquamarine;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-sticky {
+    position: sticky;
+    top: 8px;
+}
+
+.pos-fixed {
+    position: fixed;
+}

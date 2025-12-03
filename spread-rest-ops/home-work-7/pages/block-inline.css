@@ -1,0 +1,26 @@
+.list__item {
+    padding: 8px 0;
+    border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+.list__item + .list__item {
+    margin-top: 16px;
+}
+
+.list__div {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
