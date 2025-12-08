@@ -1,0 +1,16 @@
+@import "variables";
+@import "mixins";
+@import "base";
+@import "buttons";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.btn-group {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

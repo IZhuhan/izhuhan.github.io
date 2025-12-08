@@ -1,8 +1,8 @@
-name: Deploy spread-rest-ops to GitHub Pages
+name: Deploy vite-gulp to GitHub Pages
 
 on:
   push:
-    branches: [ spread-rest-ops ]
+    branches: [ vite-gulp ]
 
 permissions:
   contents: write
@@ -12,11 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm run build
 
       - name: Deploy to folder inside gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./
-          destination_dir: spread-rest-ops
+          publish_dir: ./dist
+          destination_dir: vite-gulp
