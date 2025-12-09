@@ -1,0 +1,33 @@
+name: Deploy vite-gulp to GitHub Pages
+
+on:
+  push:
+    branches: [ vite-gulp ]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: home-work-33/vite-project
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to folder inside gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: home-work-33/vite-project/dist
+          destination_dir: vite-gulp
