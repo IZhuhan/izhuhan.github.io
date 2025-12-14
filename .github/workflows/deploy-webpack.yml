@@ -1,8 +1,8 @@
-name: Deploy vite-gulp to GitHub Pages
+name: Deploy webpack to GitHub Pages
 
 on:
   push:
-    branches: [ vite-gulp ]
+    branches: [ webpack ]
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: home-work-33/vite-project
+        working-directory: home-work-34
 
     steps:
       - uses: actions/checkout@v4
@@ -29,5 +29,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: home-work-33/vite-project/dist
-          destination_dir: vite-gulp
+          publish_dir: home-work-34/dist
+          destination_dir: home-work-34
