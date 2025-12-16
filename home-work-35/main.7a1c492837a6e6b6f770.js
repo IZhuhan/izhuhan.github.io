@@ -1,0 +1,2 @@
+(()=>{"use strict";var t,e,n,c;document.querySelector("#root").innerHTML='\n  <button type="button" id="clicker">Click here to increment the counter</button>\n  <button type="button" id="counter"></button>\n',t=document.querySelector("#counter"),e=document.querySelector("#clicker"),n=0,c=function(e){n=e,t.innerHTML="Count is ".concat(n)},e.addEventListener("click",function(){return c(n+1)}),c(0)})();
+//# sourceMappingURL=main.7a1c492837a6e6b6f770.js.map
