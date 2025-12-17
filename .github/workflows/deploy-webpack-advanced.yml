@@ -1,8 +1,8 @@
-name: Deploy webpack to GitHub Pages
+name: Deploy webpack-advanced to GitHub Pages
 
 on:
   push:
-    branches: [ webpack ]
+    branches: [ webpack-advanced ]
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: home-work-34
+        working-directory: home-work-35
 
     steps:
       - uses: actions/checkout@v4
@@ -29,5 +29,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: home-work-34/dist
-          destination_dir: home-work-34
+          publish_dir: home-work-35/dist
+          destination_dir: home-work-35
