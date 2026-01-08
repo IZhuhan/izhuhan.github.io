@@ -1,0 +1,50 @@
+<<<<<<<< HEAD:.github/workflows/deploy-react-hooks-and-components.yml
+name: Deploy react-hooks-and-components to GitHub Pages
+
+on:
+  push:
+    branches: [ react-hooks-and-components ]
+========
+name: Deploy react-components to GitHub Pages
+
+on:
+  push:
+    branches: [ react-components ]
+>>>>>>>> cf4a51687618e6af87a3515849bde0618be94bba:.github/workflows/deploy-react-components.yml
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+<<<<<<<< HEAD:.github/workflows/deploy-react-hooks-and-components.yml
+        working-directory: home-work-40
+========
+        working-directory: home-work-39
+>>>>>>>> cf4a51687618e6af87a3515849bde0618be94bba:.github/workflows/deploy-react-components.yml
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to folder inside gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+<<<<<<<< HEAD:.github/workflows/deploy-react-hooks-and-components.yml
+          publish_dir: home-work-40/dist
+          destination_dir: home-work-40
+========
+          publish_dir: home-work-39/dist
+          destination_dir: home-work-39
+>>>>>>>> cf4a51687618e6af87a3515849bde0618be94bba:.github/workflows/deploy-react-components.yml
