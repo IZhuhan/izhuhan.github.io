@@ -66,3 +66,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.users {
+  display: flex;
+  align-items: start;
+}
+
+.box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid white;
+}
