@@ -1,8 +1,8 @@
-name: Deploy react-hooks-and-components to GitHub Pages
+name: Deploy react-hooks to GitHub Pages
 
 on:
   push:
-    branches: [ react-hooks-and-components ]
+    branches: [ react-hooks ]
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: home-work-40
+        working-directory: home-work-41
 
     steps:
       - uses: actions/checkout@v4
@@ -29,5 +29,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: home-work-40/dist
-          destination_dir: home-work-40
+          publish_dir: home-work-41/dist
+          destination_dir: home-work-41
