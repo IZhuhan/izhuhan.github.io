@@ -3,4 +3,28 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  color: #4a4c94;
+}
+
+nav a.active {
+  font-weight: 800;
+  color: #b4b5ff;
 }
