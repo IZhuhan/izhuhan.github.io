@@ -1,8 +1,8 @@
-name: Deploy react-router to GitHub Pages
+name: Deploy react-styles to GitHub Pages
 
 on:
   push:
-    branches: [ react-router ]
+    branches: [ react-styles ]
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: home-work-43
+        working-directory: home-work-44
 
     steps:
       - uses: actions/checkout@v4
@@ -29,5 +29,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: home-work-43/dist
-          destination_dir: home-work-43
+          publish_dir: home-work-44/dist
+          destination_dir: home-work-44
