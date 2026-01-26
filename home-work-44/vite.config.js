@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: mode === 'production' ? '/home-work-43/' : '/',
+  base: mode === 'production' ? '/home-work-44/' : '/',
 }))
