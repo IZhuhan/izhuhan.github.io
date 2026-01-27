@@ -1,11 +1,8 @@
 import './App.css'
-import UserList from "./components/UserList/UserList.jsx";
 
 function App() {
   return (
-    <>
-      <UserList/>
-    </>
+    <div>App</div>
   )
 }
 
