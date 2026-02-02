@@ -1,8 +1,11 @@
 import './App.css'
+import LoginFormV2 from "./components/LoginFormV2.jsx";
 
 function App() {
   return (
-    <div>App</div>
+    <>
+      <LoginFormV2/>
+    </>
   )
 }
 
