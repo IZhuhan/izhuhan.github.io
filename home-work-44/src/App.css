@@ -4,3 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+
+.form div + div {
+  margin-top: 12px;
+}
+
+button {
+  margin-top: 16px;
+}

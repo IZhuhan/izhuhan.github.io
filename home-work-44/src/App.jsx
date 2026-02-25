@@ -1,10 +1,10 @@
 import './App.css'
-import LoginFormV2 from "./components/LoginFormV2.jsx";
+import Form from "./components/Form.jsx";
 
 function App() {
   return (
     <>
-      <LoginFormV2/>
+      <Form/>
     </>
   )
 }
