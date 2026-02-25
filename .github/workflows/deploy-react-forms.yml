@@ -1,8 +1,8 @@
-name: Deploy react-styles to GitHub Pages
+name: Deploy react-forms to GitHub Pages
 
 on:
   push:
-    branches: [ react-styles ]
+    branches: [ react-forms ]
 
 permissions:
   contents: write
