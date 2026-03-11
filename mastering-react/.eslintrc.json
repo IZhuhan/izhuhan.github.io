@@ -1,0 +1,6 @@
+{
+  "extends": ["react-app", "plugin:storybook/recommended"],
+  "rules": {
+    "default-case": "off"
+  }
+}
